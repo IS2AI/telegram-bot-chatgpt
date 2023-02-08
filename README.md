@@ -1,1 +1,1 @@
-# telegram-bot-chatgpt
+# telegram-bot-chatgpt (will be released soon:))
