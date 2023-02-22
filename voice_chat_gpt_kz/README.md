@@ -15,10 +15,11 @@ pip install -r requirements.txt
 1) Start a new conversation with the [BotFather](https://telegram.me/botfather)
 <img src = "https://github.com/IS2AI/telegram-bot-chatgpt/blob/main/botfather.png?raw=true" width="370" height="600">
 
-2) Send /newbot to create a new Telegram bot.
+2) Send ```/newbot``` to create a new Telegram bot.
 3) When asked, enter a name for the bot.
 4) Give the Telegram bot a unique username. Note that the bot name must end with the word "bot" (case-insensitive).
-5) Insert the Telegram bot's access token to ```tele_token = "<YOUR TELEGRAM BOT TOKEN>"``` inside the ```telegram_chatgpt_kk.py``` file.
+5) Send ```/token``` to generate authorization token
+6) Insert the generated token on ```tele_token = "<YOUR TELEGRAM BOT TOKEN>"``` in ```telegram_chatgpt_kk.py``` file.
 
 ## Run
 1) Download ```Kaz_TTS``` text-to-speech model from [Google Drive](https://drive.google.com/file/d/1jdoY7nxGeoscWgceWMYGQKqDAboHpGU3/view?usp=share_link)
@@ -27,7 +28,7 @@ pip install -r requirements.txt
 ```
 python telegram_chatgpt_kk.py
 ```
-4) Open the bot on Telegram and a new conversation with ChatGPT via voice messages
+4) Open the bot on Telegram and start a new conversation with ChatGPT via voice messages
 <img src = "https://github.com/IS2AI/telegram-bot-chatgpt/blob/main/voice_chat_gpt_kz/telegram%20kk.png?raw=true" width="370" height="600">
 
 ## References
