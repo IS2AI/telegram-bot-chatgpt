@@ -1,0 +1,9 @@
+# Usage: pip install -r requirements.txt
+revChatGPT>=2.3.5
+espnet>=202301
+SpeechRecognition>=3.9.0
+pyTelegramBotAPI>=4.10.0
+pyttsx3>=2.90
+translate>=3.6.1
+soundfile>=0.12.1
+num2words>=0.5.12
