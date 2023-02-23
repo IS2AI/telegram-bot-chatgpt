@@ -30,6 +30,10 @@ python telegram_chatgpt_en.py
 2) Open the bot on Telegram and start a new conversation with ChatGPT via voice messages
 <img src = "https://github.com/IS2AI/telegram-bot-chatgpt/blob/main/voice_chat_gpt_en/telegram%20en.png?raw=true" width="370" height="600">
 
+## TODO
+1) Exception handling
+2) Include voice feedback for the exceptions
+
 ## References
 1) [revChatGPT](https://github.com/acheong08/ChatGPT)
 2) [SpeechRecognition](https://github.com/Uberi/speech_recognition)
