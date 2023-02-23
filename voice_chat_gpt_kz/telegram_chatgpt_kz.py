@@ -61,6 +61,10 @@ def start_handler(message):
 
 @tele_bot.message_handler(content_types=['voice'])
 def voice_processing(message):
+    # reset the chat to preserve privacy
+    chatbot.reset_chat()
+    
+    # process the voice message
     file_info = tele_bot.get_file(message.voice.file_id)
     file_data = tele_bot.download_file(file_info.file_path)
 
