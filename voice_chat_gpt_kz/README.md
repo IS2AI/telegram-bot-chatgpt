@@ -31,6 +31,14 @@ python telegram_chatgpt_kk.py
 4) Open the bot on Telegram and start a new conversation with ChatGPT via voice messages
 <img src = "https://github.com/IS2AI/telegram-bot-chatgpt/blob/main/voice_chat_gpt_kz/telegram%20kk.png?raw=true" width="370" height="600">
 
+## Official ChatGPT API
+1. Log/Sign in to [OpenAI platform](https://platform.openai.com/)
+2. Go to the profile section (top right) and click on ```View API keys```
+3. If you don't have an existing key then create a new one
+4. Install the OpanAI package: ```pip install --upgrade openai```
+5. Export your key on your working enviroment: ```export OPENAI_API_KEY=<YOUR_OPENAI_API_KEY>```
+6. Launch the telegram bot: ```python telegram_chatgpt_en_v2.py```
+
 ## TODO
 1) Exception handling
 2) Include voice feedback for the exceptions
