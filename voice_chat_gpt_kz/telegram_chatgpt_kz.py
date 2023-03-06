@@ -24,8 +24,7 @@ tele_bot = telebot.TeleBot(tele_token, threaded=True)
 # connect to the OpenAI's ChatGPT
 config = json.load(open("config.json"))
 chatbot = Chatbot(config=config)
-#chatbot.reset_chat()
-#chatbot.refresh_session()
+reset_chat = True # set False if you want ChatGPT to use chat history
 
 # initialize translator
 translator = Translator()
@@ -62,7 +61,8 @@ def start_handler(message):
 @tele_bot.message_handler(content_types=['voice'])
 def voice_processing(message):
     # reset the chat to preserve privacy
-    chatbot.reset_chat()
+    if reset_chat:
+        chatbot.reset_chat()
     
     # process the voice message
     file_info = tele_bot.get_file(message.voice.file_id)
