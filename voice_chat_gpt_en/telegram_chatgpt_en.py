@@ -15,7 +15,7 @@ utils.make_dir("output")
 
 # initialize telegram bot
 isRunning = False
-tele_token = "<YOUR TELEGRAM BOT TOKEN>"
+tele_token = "<6745840752:AAGz3sBcTH-NxJNx-PSrbbLC6Bn-NpalxlM>"
 tele_bot = telebot.TeleBot(tele_token, threaded=True)
 
 # connect to the OpenAI's ChatGPT
